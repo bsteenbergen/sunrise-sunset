@@ -1,0 +1,17 @@
+#results {
+  position: fixed;
+  top: 40vh;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-shadow: lightblue 5px 5px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  -webkit-text-fill-color: black;
+}
+
+@media screen and (max-width: 321px) {
+  #results {
+    font-size: 15px;
+  }
+}
