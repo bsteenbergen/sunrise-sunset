@@ -72,6 +72,6 @@ img {
 
 @media screen and (max-height: 550px) {
   ul {
-    font-size: 10px;
+    opacity: 0;
   }
 }

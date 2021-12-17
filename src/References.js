@@ -4,8 +4,8 @@ import sun from "./sun.png";
 export default function References() {
   return (
     <div>
-      <span class="dot" id="dot1"></span>
-      <span class="dot" id="dot2"></span>
+      <span className="dot" id="dot1"></span>
+      <span className="dot" id="dot2"></span>
       <div className="footer">----</div>
       <img src={sun} alt="sun" />
       <ul>

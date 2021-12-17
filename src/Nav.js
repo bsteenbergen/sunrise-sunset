@@ -11,10 +11,10 @@ export default function Nav({ setData }) {
   }
 
   return (
-    <div class="boxes">
-      <label for="lat"> Latitude:</label>
+    <div className="boxes">
+      <label htmlFor="lat"> Latitude:</label>
       <input type="number" id="lat" placeholder="00.00" />
-      <label for="lat"> Longitude:</label>
+      <label htmlFor="lat"> Longitude:</label>
       <input type="number" id="long" placeholder="00.00" />
       <input type="submit" value="lets see!" onClick={handleClick} />
     </div>
